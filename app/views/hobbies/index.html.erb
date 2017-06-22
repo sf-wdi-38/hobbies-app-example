@@ -1,0 +1,5 @@
+<!-- app/views/hobbies/index.html.erb -->
+<h1>WDI 38 Hobbies</h1>
+<% @hobbies.each do |hobby| %>
+  <li><%= hobby.name %> likes <%= hobby.hobby %></li>
+<% end %>

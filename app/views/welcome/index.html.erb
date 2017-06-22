@@ -1,0 +1,12 @@
+<br>
+This is the welcome#index view (app/views/welcome/index.html.erb)
+<h1>I build with Rails</h1>
+<img src="http://i.giphy.com/SPZFhfUJjsJO0.gif" alt="learning internet" style="width: 300px">
+<p><%= "Hello World".reverse %></p>
+
+<p>Hello, <%= @name %>!</p>
+
+<% logged_in = true %>
+<% if logged_in %>
+  <p>Please sign in</p>
+<% end %>
